@@ -2,11 +2,11 @@
 
 Ever wondered how GPUs and high-performance CPUs manage memory for fast matrix operations? **SharedMemoryTileSimulator** is a .NET 9 console app that lets you peek under the hood! ??
 
-- ?? **Tile Loading**: See how a submatrix (tile) is loaded into fast, stack-allocated memory.
-- ?? **Cache Line Visualization**: Explore how your data maps to cache lines, and why it matters for performance.
-- ?? **Memory Layout Inspection**: Dump the actual memory addresses of your tile data.
-- ?? **Reuse Simulation**: Simulate how warps/threads reuse shared memory for efficient computation.
-- ?? **Async Copy**: Try out async-style tile copying and see the results instantly.
+- **Tile Loading**: See how a submatrix (tile) is loaded into fast, stack-allocated memory.
+- **Cache Line Visualization**: Explore how your data maps to cache lines, and why it matters for performance.
+- **Memory Layout Inspection**: Dump the actual memory addresses of your tile data.
+- **Reuse Simulation**: Simulate how warps/threads reuse shared memory for efficient computation.
+- **Async Copy**: Try out async-style tile copying and see the results instantly.
 
 This project is perfect for:
 - Students learning about memory hierarchies and cache effects
